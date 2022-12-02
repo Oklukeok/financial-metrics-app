@@ -11,7 +11,7 @@ describe('Details test', () => {
     const history = createBrowserHistory();
     const image = {
       id: '-1',
-      author: 'Marcos Gualtero Lourenzo',
+      author: 'Lucas Bermudez',
       width: 5616,
       height: 3744,
       url: './__snapshots__/testingImage.jpg',

@@ -57,17 +57,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Financial Metrics App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> Are you a Crypto Lover? Me too! Check my new Crypto App to stay up to date with the most relevant stats of each currency.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+- React
+- Redux
+- Jest
+- API
+- Vercel
 
 <details>
   <summary>Client</summary>
@@ -96,9 +98,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[ Consume information from a Crypto Financial API ]**
+- **[ Display the 20 currecies in the Home page ]**
+- **[ You can search your favourite coin and see the most relevant stats ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +110,10 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://financial-metrics-cmvsg68sq-oklukeok.vercel.app/)
+
+
+Video: https://www.loom.com/share/4e0124569f714fccb16b44386c88ccbd
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,79 +125,15 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+On GitHub.com, navigate to the main page of the repository.
+Above the list of files, click the green "Code" button.
+Copy the URL for the repository.
+Open Git Bash.
+Change the current working directory to the location where you want the cloned directory.
+Type git clone, and then paste the URL you copied earlier: $ git@github.com:Oklukeok/financial-metrics-app.git
+Press Enter to create your local clone.
+Open the folder with your integrated development environment (IDE).
+You can check a live preview opening the HTML with a browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,35 +141,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Lucas Bermudez**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/Oklukeok)
+- Twitter: [@twitterhandle](https://twitter.com/ok_Lukee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-bermudez/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -242,9 +162,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,29 +170,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
