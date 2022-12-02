@@ -1,38 +1,317 @@
 .App {
   text-align: center;
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: url(./assets/img/banner.jpg) 0 0 no-repeat;
+  background-size: cover;
+  padding: 2em;
+  display: flex;
+  gap: 0.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 0;
+  align-self: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  width: 4em;
+}
+
+.coin-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+input,
+.operations {
+  width: 100%;
+}
+
+form {
+  padding: 0.5em 0.5em;
+  width: calc(100% - 3.5em);
+}
+
+input {
+  border: solid 1px #e8e8e8;
+  height: 3rem;
+  padding: 0 1em;
+  background-color: #3b5a9a;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.coins-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.coins-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.coin-wrapper {
+  width: calc(50% - 2em);
+  height: 8em;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: right;
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.coin-wrapper p {
+  margin: auto;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.home-detail {
+  margin: 0 0 2em 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.coin-wrapper:nth-child(4n + 0),
+.coin-wrapper:nth-child(4n + 1) {
+  background-color: #3f65ae;
+}
+
+.coin-wrapper:nth-child(4n + 2),
+.coin-wrapper:nth-child(4n + 3) {
+  background-color: #4063a5;
+}
+
+.coins-heading {
+  background-color: #35548b;
+  width: 100%;
+  margin-bottom: 0.1em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.default-image {
+  background: url(./assets/img/logo.svg) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.bitcoin {
+  background: url(./assets/img/bitcoin.png) 24% 0 no-repeat;
+  background-position: center;
+}
+
+.ethereum {
+  background: url(./assets/img/ethereum.png) 24% 0 no-repeat;
+  background-position: center;
+}
+
+.tether {
+  background: url(./assets/img/tether.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.binance-coin {
+  background: url(./assets/img/bnb.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.usd-coin {
+  background: url(./assets/img/usdcoin.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.binance-usd {
+  background: url(./assets/img/binance.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.xrp {
+  background: url(./assets/img/xrp.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.cardano {
+  background: url(./assets/img/cardano.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.dogecoin {
+  background: url(./assets/img/doge.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.polygon {
+  background: url(./assets/img/polygon.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.polkadot {
+  background: url(./assets/img/polkadot.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.multi-collateral-dai {
+  background: url(./assets/img/multi.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.litecoin {
+  background: url(./assets/img/litecoin.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.terra-luna {
+  background: url(./assets/img/terraluna.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.solana {
+  background: url(./assets/img/solana.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.shiba-inu {
+  background: url(./assets/img/shiba.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.tron {
+  background: url(./assets/img/tron.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.uniswap {
+  background: url(./assets/img/uniswap.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.unus-sed-leo {
+  background: url(./assets/img/unus.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.avalanche {
+  background: url(./assets/img/avalanche.png) 25% 0 no-repeat;
+  background-position: center;
+}
+
+.coin-image {
+  height: 4em;
+  align-self: center;
+  margin: auto;
+  background-size: contain;
+  margin-top: 2em;
+}
+
+.detail-image {
+  width: 40%;
+  background-position: 60% 60%;
+  height: 6em;
+}
+
+.top-detail {
+  background-color: #3f65ae;
+  width: 100vw;
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.bottom-detail {
+  background-color: #3b5a9a;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.detail-card {
+  width: calc(50% - 2em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2em;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 2em 0;
+}
+
+.detail-card svg {
+  font-size: 10em;
+  padding: 0;
+}
+
+.detail-card p {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: large;
+}
+
+.upHome {
+  color: #26ce6e;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.downHome {
+  color: #ff7060;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.back-button {
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.coin-name {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.price-detail,
+.rank-detail {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.rank-detail button {
+  margin-left: 1em;
+  background-color: #fff;
+  color: #000;
+  border-radius: 2px;
+  border-color: #a53fa0;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+  .bottom-detail {
+    flex-wrap: wrap;
   }
 }

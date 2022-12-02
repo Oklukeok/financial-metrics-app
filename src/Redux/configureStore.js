@@ -1,7 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import coinsSlice from './coins/coins';
 
-const store = configureStore({
-
+const reducer = combineReducers({
+  coinSlice: coinsSlice,
 });
 
-export default store;
+const coinsStore = configureStore({ reducer });
+
+export default coinsStore;
