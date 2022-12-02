@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from '../pages/Navbar';
-import coinsStore from '../redux/configureStore';
+import coinsStore from '../redux/configureStore.js';
 import '@testing-library/jest-dom';
 
 describe('Test for Navbar component', () => {
