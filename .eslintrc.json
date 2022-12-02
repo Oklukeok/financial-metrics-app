@@ -22,6 +22,7 @@
     },
     "ignorePatterns": [
       "dist/",
-      "build/"
+      "build/",
+      "test"
     ]
   }
