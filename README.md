@@ -170,7 +170,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+- I am immensely grateful to ## Nelson Sakwa ## the creator of the original template design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

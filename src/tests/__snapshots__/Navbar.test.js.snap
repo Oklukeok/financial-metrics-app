@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test for Navbar component Renders Navbar correctly 1`] = `
+exports[`Testing Navbar page Should match the navbar snap 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -9,10 +9,10 @@ Object {
         <img
           alt="logo"
           class="logo"
-          src="logo.png"
+          src="logo.svg"
         />
         <h1>
-          Coin Tab
+          Crypto Realm
         </h1>
       </nav>
     </div>
@@ -22,10 +22,10 @@ Object {
       <img
         alt="logo"
         class="logo"
-        src="logo.png"
+        src="logo.svg"
       />
       <h1>
-        Coin Tab
+        Crypto Realm
       </h1>
     </nav>
   </div>,

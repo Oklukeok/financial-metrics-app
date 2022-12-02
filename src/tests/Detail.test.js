@@ -1,9 +1,10 @@
+
 import { render } from '@testing-library/react';
 import React from 'react';
 import { Provider } from 'react-redux';
 import { createBrowserHistory } from 'history';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import coinsStore from '../redux/configureStore';
+import coinsStore from '../Redux/configureStore';
 import Detail from '../components/Detail';
 
 describe('Details test', () => {
