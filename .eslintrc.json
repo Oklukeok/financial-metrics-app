@@ -22,6 +22,12 @@
     },
     "ignorePatterns": [
       "dist/",
-      "build/"
+      "build/",
+      "App.js",
+      "Home.js",
+      "index.js",
+      "Detail.test.js",
+      "Home.test.js",
+      "Navbar.test.js"
     ]
   }
