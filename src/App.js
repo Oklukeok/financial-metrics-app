@@ -1,22 +1,26 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import NavBar from './Pages/Nav';
-import Home from './Pages/Home';
-import Details from './Pages/Details';
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import Navbar from './pages/Navbar';
+import Home from './components/Home';
+import Detail from './components/Detail';
+import { fetchCoins } from './redux/coins/coins';
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchCoins());
+  }, [dispatch]);
+
   return (
-
-    <div className="App">
-      <div className="header">
-        <NavBar />
-      </div>
+    <>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Details" element={<Details />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/:id" element={<Detail />} />
       </Routes>
-    </div>
-
+    </>
   );
 }
 
