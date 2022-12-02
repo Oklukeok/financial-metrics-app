@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { TwinSpin } from 'react-cssfx-loading';
 import { FaArrowCircleRight, FaCaretUp, FaCaretDown } from 'react-icons/fa';
-import { searchCoins } from '../redux/coins/coins';
+import { searchCoins } from '../Redux/coins/coins';
 
 const Home = () => {
   const fetchedCoins = useSelector((state) => state.coinSlice);

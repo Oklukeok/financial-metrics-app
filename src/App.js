@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import Navbar from './pages/Navbar';
 import Home from './components/Home';
 import Detail from './components/Detail';
-import { fetchCoins } from './redux/coins/coins';
+import { fetchCoins } from './Redux/coins/coins';
 
 function App() {
   const dispatch = useDispatch();
